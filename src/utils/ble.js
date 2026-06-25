@@ -1,0 +1,4 @@
+// src/utils/ble.js
+export const SERVICE_UUID = '12345678-1234-1234-1234-123456789abc';
+export const CHARACTERISTIC_UUID = 'abcd1234-5678-1234-5678-abcdef123456';
+export const RSSI_CHARACTERISTIC_UUID = 'abcd1234-5678-1234-5678-abcdef123457';
