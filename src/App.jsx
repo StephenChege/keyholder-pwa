@@ -100,6 +100,12 @@ function AppContent() {
         {/* Connection Status */}
         <ConnectionStatus connected={connected} loading={loading} />
 
+        {error && (
+          <div className="p-4 rounded-lg bg-red-500 bg-opacity-10 border border-red-500 text-red-400">
+            <p className="text-sm">Error: {error}</p>
+          </div>
+        )}
+
         {/* RSSI & Distance Display */}
         {connected && <RSSIDisplay rssi={rssi} distance={distance} />}
 
